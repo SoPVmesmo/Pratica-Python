@@ -18,27 +18,31 @@ class Bolacha:
         return self._descricao
 
     def set_descricao(self,nova_descricao):
-        self._descricao = nova_descricao
+        if type(nova_descricao) == str:
+            self._descricao = nova_descricao
+        else:
+            print("A descrição tem que ser uma String!!")
     
     def get_valor(self):
         return self._valor
 
     def set_valor(self,novo_valor):
-        self._valor = novo_valor
+        n=novo_valor.isnumeric()
+        if n == True: 
+            self._valor = novo_valor
+        else:
+            print("O valor tem que ser um numero real!!")
     
     def get_peso(self):
         return self._valor
 
     def set_peso(self,novo_peso):
-        self._valor = novo_peso
-
-    def get_taxa(self):
-        return self._valor
-
-    def set_taxa(self,nova_taxa):
-        self._taxa = nova_taxa
-
-
+        p=novo_peso.isnumeric()
+        if p == True:
+            self._valor = novo_peso
+        else:
+            print("O peso tem que ser um numero real!!")
+            
 class Comuns(Bolacha):
     def __init__(self,descricao,valor,peso):
         super().__init__(descricao,valor,peso)
