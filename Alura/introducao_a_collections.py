@@ -150,7 +150,7 @@ def e():
     ]
     for nome,idade,nacimento in usuarios:
         print(f"seu nome é:{nome} e sua idade é:{idade}")
-
+        
     #Ordem decrecente e cresente
 def f():
     lista = [1,2,3,4,5,6,7,8,9]
