@@ -1,0 +1,8 @@
+pv:10
+joao:9
+paulo:6
+david:9.5
+maria:7
+saulo:9
+matheus:8.5
+sammira:9.5
