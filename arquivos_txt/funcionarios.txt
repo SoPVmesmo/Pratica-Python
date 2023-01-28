@@ -1,0 +1,9 @@
+Joao:1200.00
+Eliana:1500.00
+Roberto:1500.00
+Mariana:1200.00
+Carlos:1200.00
+Edson:1500.00
+Rachel:1200.00
+Raimundo:1200.00
+Joana:1500.00

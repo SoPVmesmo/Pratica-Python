@@ -1,0 +1,9 @@
+Joao:1116.0
+Eliana:1305.0
+Roberto:1305.0
+Mariana:1116.0
+Carlos:1116.0
+Edson:1305.0
+Rachel:1116.0
+Raimundo:1116.0
+Joana:1305.0
