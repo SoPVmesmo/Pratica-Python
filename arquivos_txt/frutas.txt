@@ -1,0 +1,8 @@
+maça:4.69
+goiaba:2.00
+uva:11.39
+melancia:2.00
+morango:17.00
+pera:11.00
+milho:6.00
+ata:7.00
